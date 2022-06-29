@@ -33,4 +33,4 @@ yours truly
 
 juliet nne osoka''', recipientProviders: [developers()], subject: 'build status for frontend application', to: 'nneosoka@gmail.com'
  }
-}  
+}
