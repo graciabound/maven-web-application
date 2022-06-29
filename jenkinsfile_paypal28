@@ -27,9 +27,10 @@ node{
  }
  stage('8Notification'){
     // Pipeline Syntax 
-    emailext body: '''Build status for frontend application.
+    emailext body: '''
 
-Regards,
-Landmark Technologies''', recipientProviders: [buildUser(), developers(), contributor()], subject: 'Build Status', to: 'paypal-team@gmail.com'
+yours truly
+
+juliet nne osoka''', recipientProviders: [developers()], subject: 'build status for frontend application', to: 'nneosoka@gmail.com'
  }
 }  
