@@ -23,7 +23,7 @@ node{
     }
  }
  stage('7deploy_prod'){
-     deploy adapters: [tomcat9(credentialsId: 'tomcatCredentials', path: '', url: 'http://18.119.10.206:8080/')], contextPath: null, war: 'target/*war'
+     deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.83.251.98:8080/manager/html')], contextPath: null, war: 'target/*war'
  }
  stage('8Notification'){
     // Pipeline Syntax 
